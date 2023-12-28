@@ -26,9 +26,9 @@ const app = createApp({});
 
 
 import ExampleComponent from './components/ExampleComponent.vue';
-import createFeedback from './components/feedback/createFeedback.vue';
+
 import listFeedback from './components/feedback/listFeedback.vue';
-import Dashboard from './components/Dashboard.vue';
+
 
 
 
@@ -36,9 +36,9 @@ import Dashboard from './components/Dashboard.vue';
 
 
 app.component('example-component', ExampleComponent);
-app.component('create', createFeedback);
+
 app.component('list', listFeedback);
-app.component('dash', Dashboard);
+
 
 
 
