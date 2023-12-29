@@ -469,7 +469,7 @@ a {
 }
 
 .ql-container {
-  height: calc(50% - 42px);
+  height: calc(70% - 42px);
 }
 
 .emoji-container {
